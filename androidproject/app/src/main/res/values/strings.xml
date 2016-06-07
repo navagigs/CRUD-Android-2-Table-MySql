@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MySQLCRUD</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_view_all_employee">Data Employee</string>
+    <string name="title_activity_view_all_users">Data Users</string>
+    <string name="title_activity_view_employee">ViewEmployee</string>
+    <string name="title_menu">Tambah Data Employee</string>>
+    <string name="title_menu_users">Tambah Data Users</string>
+    <string name="title_default">Pilih Data</string>
+</resources>

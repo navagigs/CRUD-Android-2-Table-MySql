@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.simplifiedcoding.mysqlcrud" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewAllEmployee"
+            android:label="@string/title_activity_view_all_employee"
+            android:parentActivityName=".menu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.simplifiedcoding.mysqlcrud.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ViewAllUsers"
+            android:label="@string/title_activity_view_all_users"
+            android:parentActivityName=".menu_users" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.simplifiedcoding.mysqlcrud.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ViewEmployee"
+            android:label="ViewEmployee"
+            android:parentActivityName=".ViewAllEmployee" >
+        </activity>
+
+        <activity
+            android:name=".ViewUsers"
+            android:label="ViewUsers"
+            android:parentActivityName=".ViewAllUsers" >
+        </activity>
+
+        <activity
+            android:name=".menu"
+            android:label="@string/title_menu"  >
+        </activity>
+
+        <activity
+            android:name=".menu_users"
+            android:label="@string/title_menu_users"  >
+        </activity>
+        <activity
+            android:name=".Default"
+            android:label="@string/title_default"
+            android:parentActivityName=".Default" >
+        </activity>
+
+
+    </application>
+
+
+</manifest>
