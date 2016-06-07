@@ -11,7 +11,7 @@ Service PHP
 ```
 folder /androcrud
 
-folder webservice dimasukan di folder xampp/htdocs
+folder androcrud dimasukan di folder xampp/htdocs
 ```
 
 Database - Menggunakan MYSQL
@@ -20,6 +20,8 @@ Nama db : androiddb
 ```
 
 Create By :
+```
 -Nava Gia Ginasta 
 -Ervina Sahrati Rangkuti
 -Ayu Anggara
+```
